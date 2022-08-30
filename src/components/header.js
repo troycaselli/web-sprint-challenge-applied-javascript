@@ -38,7 +38,7 @@ const headerAppender = (selector) => {
   // It should append the header to the element in the DOM that matches the given selector.
   //
   const element = document.querySelector(selector)
-  element.appendChild(Header('Know the Times', 'Aug 30, 2022', '93°'))
+  element.appendChild(Header('BloomTech Times', 'Aug 30, 2022', '93°'))
 }
 
 export { Header, headerAppender }
